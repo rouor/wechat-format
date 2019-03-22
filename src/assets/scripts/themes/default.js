@@ -26,12 +26,16 @@ var defaultTheme = {
       'margin': '10px 10px',
       'line-height': '1.6'
     },
-    blockquote: {
-      'color': 'rgb(91, 91, 91)',
-      'padding': '1px 0 1px 10px',
-      'background': 'rgba(158, 158, 158, 0.1)',
-      'border-left': '3px solid rgb(158,158,158)',
-    },
+blockquote, q {
+  border-left: 5px solid #9654B5;
+  border-right: 1px solid #9654B5;
+  padding: 1px;
+  color: #616161;
+  quotes: none;
+  margin-left: 0.7em; 
+  margin-top: 3 px;
+  background:#FBF9FD
+},
     code: {
       'font-size': '80%',
       'overflow': 'auto',
@@ -86,7 +90,7 @@ var defaultTheme = {
       'color': '#ff3502'
     },
     strong: {
-      'color': '#ff3502'
+      'color': '#773098'
     },
     table: {
       'border-collapse': 'collapse',  
